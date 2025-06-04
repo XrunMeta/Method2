@@ -1,10 +1,10 @@
 package com.epicgames.unreal;
 
-import com.YourCompany.AfterLife_M2.OBBDownloaderService;
-import com.YourCompany.AfterLife_M2.DownloaderActivity;
+import com.xrun.afterlife.OBBDownloaderService;
+import com.xrun.afterlife.DownloaderActivity;
 import android.app.Activity;
 import com.google.android.vending.expansion.downloader.Helpers;
-import com.YourCompany.AfterLife_M2.OBBData;
+import com.xrun.afterlife.OBBData;
 
 
 public class DownloadShim
