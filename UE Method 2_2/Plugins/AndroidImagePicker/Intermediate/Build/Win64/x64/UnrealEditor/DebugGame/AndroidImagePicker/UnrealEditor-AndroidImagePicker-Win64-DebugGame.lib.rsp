@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-AndroidImagePicker-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\_Eko\_UnrealEngine\Afterlife_M2_02\Intermediate\Build\Win64\x64\Afterlife_M2_02Editor\DebugGame\UnrealEd\SharedPCH.UnrealEd.Project.NonOptimized.ValApi.Cpp20.h.obj"
+"D:\_Eko\_UnrealEngine\Afterlife_M2_02\Plugins\AndroidImagePicker\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\AndroidImagePicker\Module.AndroidImagePicker.cpp.obj"
+"D:\_Eko\_UnrealEngine\Afterlife_M2_02\Plugins\AndroidImagePicker\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\AndroidImagePicker\AndroidImagePicker.cpp.obj"
+"D:\_Eko\_UnrealEngine\Afterlife_M2_02\Plugins\AndroidImagePicker\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\AndroidImagePicker\AndroidImagePickerModule.cpp.obj"
+"D:\_Eko\_UnrealEngine\Afterlife_M2_02\Plugins\AndroidImagePicker\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\AndroidImagePicker\Default.rc2.res"
+/OUT:"D:\_Eko\_UnrealEngine\Afterlife_M2_02\Plugins\AndroidImagePicker\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\AndroidImagePicker\UnrealEditor-AndroidImagePicker-Win64-DebugGame.lib"

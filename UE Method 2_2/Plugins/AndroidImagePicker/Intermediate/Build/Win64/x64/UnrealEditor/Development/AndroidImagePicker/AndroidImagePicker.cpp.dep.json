@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\_eko\\_unrealengine\\afterlife_m2_02\\plugins\\androidimagepicker\\source\\androidimagepicker\\private\\androidimagepicker.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\_eko\\_unrealengine\\afterlife_m2_02\\intermediate\\build\\win64\\x64\\afterlife_m2_02editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\_eko\\_unrealengine\\afterlife_m2_02\\plugins\\androidimagepicker\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\androidimagepicker\\definitions.androidimagepicker.h",
+            "d:\\_eko\\_unrealengine\\afterlife_m2_02\\plugins\\androidimagepicker\\source\\androidimagepicker\\public\\androidimagepicker.h",
+            "d:\\epicgames\\ue_5.4\\engine\\source\\runtime\\coreuobject\\public\\uobject\\noexporttypes.h",
+            "d:\\epicgames\\ue_5.4\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "d:\\epicgames\\ue_5.4\\engine\\source\\runtime\\coreuobject\\public\\serialization\\testundeclaredscriptstructobjectreferences.h",
+            "d:\\epicgames\\ue_5.4\\engine\\source\\runtime\\core\\public\\math\\unitconversion.h",
+            "d:\\epicgames\\ue_5.4\\engine\\source\\runtime\\core\\public\\math\\unitconversion.inl",
+            "d:\\epicgames\\ue_5.4\\engine\\source\\runtime\\core\\public\\internationalization\\polyglottextdata.h",
+            "d:\\_eko\\_unrealengine\\afterlife_m2_02\\plugins\\androidimagepicker\\intermediate\\build\\win64\\unrealeditor\\inc\\androidimagepicker\\uht\\androidimagepicker.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

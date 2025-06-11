@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AndroidImagePicker.cpp.obj": [
+			"AndroidImagePicker.gen.cpp.obj",
+			"AndroidImagePicker.init.gen.cpp.obj",
+			"AndroidImagePicker.cpp.obj",
+			"AndroidImagePickerModule.cpp.obj"
+		]
+	}
+}
