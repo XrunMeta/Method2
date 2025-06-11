@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+  <init>
+    <log text="AndroidImagePicker UPL init running..." />
+  </init>
+
+  <androidPlugin>
+    <activityConfigChanges add="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize"/>
+    
+    <!-- Tambahan penting untuk onActivityResult -->
+    <gameActivityOnActivityResultAdditions>
+      <![CDATA[
+        if (com.mvi.imagepicker.ImagePicker.onActivityResult(requestCode, resultCode, data)) {
+            return;
+        }
+      ]]>
+    </gameActivityOnActivityResultAdditions>
+
+    <activityAdditions>
+      <![CDATA[
+        <intent-filter>
+          <action android:name="android.intent.action.MAIN" />
+          <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+      ]]>
+    </activityAdditions>
+
+    <proguardAdditions>
+      <![CDATA[
+        -keep class com.mvi.imagepicker.** { *; }
+      ]]>
+    </proguardAdditions>
+
+    <dependencies>
+      <jarLibs>
+        <!-- Tambahkan JAR jika perlu -->
+      </jarLibs>
+    </dependencies>
+
+    <additionalJava>
+      <source>
+        <path>src/com/mvi/imagepicker/ImagePicker.java</path>
+      </source>
+    </additionalJava>
+  </androidPlugin>
+</root>

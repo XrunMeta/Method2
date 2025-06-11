@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "AndroidImagePicker",
+	"Description": "Plugin to open Android gallery and import image as texture.",
+	"Category": "Android",
+	"CreatedBy": "MVI",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "AndroidImagePicker",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"SupportedTargetPlatforms": ["Android"]
+}
